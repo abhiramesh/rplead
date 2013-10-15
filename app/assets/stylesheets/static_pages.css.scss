@@ -1,6 +1,6 @@
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /* Navbar */
 
@@ -21,10 +21,10 @@
 .menu-items{
 	float: right;
 	margin: 12px 10% 0px 0px;
-	color: #313131;
+	color: #333;
 	cursor: pointer;
 	background: transparent;
-	font-weight: 700 !important;
+	font-weight: 400 !important;
 }
 
 .menu-items span {
@@ -80,6 +80,61 @@
 
 .learn-button:hover{
 	background: #0060ff;
+}
+
+/* Homepage Section 2 */
+
+.heading-1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	font-weight: 900;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 50px auto 0 auto;
+	display: block;
+}
+
+.content{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #999999;
+	letter-spacing: 1px;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+.content .content-title{
+	color: #313131;
+}
+
+.detail-box{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #333;
+	letter-spacing: 1px;
+	width: 100%;
+	background: #EEE;
+	max-width: 500px;
+	padding: 20px 10px;
+	margin-bottom: 30px;
+}
+
+.check{
+	width: 30px;
+	padding: 10px 20px;
+}
+
+.separator{
+	width: 32%;
+	border-top: solid;
 }
 
 /* Responsive Behavior */
