@@ -6,8 +6,36 @@
 
 .home-nav{
 	background: #f8f8f8;
-	padding: 32px 5px;
+	padding: 17px 5px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
+
+#logo{
+	width: 200px;
+	float: left;
+	margin-left: 12%;
+}
+
+.menu-items{
+	float: right;
+	margin: 12px 10% 0px 0px;
+	color: #313131;
+	cursor: pointer;
+	background: transparent;
+	font-weight: 700 !important;
+}
+
+.menu-items span {
+	margin-right: 10px;
+}
+
+.menu-items span:hover {
+	color: #0060ff;
+}
+
+/* Home Page Section 1 */
 
 .title-background{
 	background: url(skyline.png) no-repeat center center;
@@ -34,13 +62,6 @@
 	text-transform: uppercase;
 }
 
-@media (max-width: 750px) {
-  .title-main-text {
-    font-size: 20px;
-    line-height: 36px;
-  }
-}
-
 .learn-button{
 	background: #333;
 	text-transform: uppercase;
@@ -59,4 +80,26 @@
 
 .learn-button:hover{
 	background: #0060ff;
+}
+
+/* Responsive Behavior */
+
+@media (max-width: 800px) {
+  .title-main-text {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .menu-items{
+  	float: none;
+  	text-align: center;
+	margin: auto;
+	font-size: 12px;
+  }
+
+  #logo {
+  	float: none;
+  	padding-bottom: 20px;
+  	margin-left: auto;
+  }
 }
