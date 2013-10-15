@@ -1,0 +1,62 @@
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+/* Navbar */
+
+.home-nav{
+	background: #f8f8f8;
+	padding: 32px 5px;
+}
+
+.title-background{
+	background: url(skyline.png) no-repeat center center;
+	min-height: 550px;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: inline-block;
+}
+
+.title-main-text{
+	max-width: 1000px;
+	margin: 11% auto 5% auto;
+	padding: 5px;
+	color: #f8f8f8;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 750px) {
+  .title-main-text {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+.learn-button{
+	background: #333;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	color: #F8F8F8;
+	font-size: 14px;
+	font-weight: 400 !important;
+	letter-spacing: 4px;
+	line-height: 1.5em;
+	width: 200px;
+	cursor: pointer;
+}
+
+.learn-button:hover{
+	background: #0060ff;
+}
